@@ -1,10 +1,8 @@
-````markdown
 # AI-Driven Drowsiness and Stress Detection with Auto Music Recommendation
 
 This project is an **AI-powered drowsiness and stress detection system** designed to enhance driver safety. Using machine learning algorithms, the system analyzes physical and emotional indicators of stress and drowsiness, then automatically recommends and plays soothing music to help the driver relax.
 
 ## Table of Contents
-
 - [Project Overview](#project-overview)
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
@@ -14,9 +12,7 @@ This project is an **AI-powered drowsiness and stress detection system** designe
 - [Future Work](#future-work)
 
 ## Project Overview
-
 The system leverages **real-time video analysis** and **physiological data** to determine the driver's state:
-
 - **Drowsiness Detection**: Uses YOLO to detect eye closure patterns associated with drowsiness.
 - **Stress Detection**: Uses physical attributes and facial expressions to classify the driver’s stress level.
 - **Music Recommendation**: If stress is detected, it auto-recommends and plays relaxing music to help the driver.
@@ -24,14 +20,12 @@ The system leverages **real-time video analysis** and **physiological data** to 
 This end-to-end solution is designed for **long drives and high-stress driving situations** to enhance safety and well-being.
 
 ## Key Features
-
 1. **Real-Time Drowsiness Detection**: Alerts the driver if signs of drowsiness are detected.
 2. **Stress Detection**: Analyzes physical data like heart rate and temperature, and facial expressions to determine stress levels.
 3. **Auto Music Recommendation**: Automatically recommends and plays soothing music if the driver shows signs of stress.
 4. **User-Friendly Interface**: Interactive frontend created with Streamlit for easy use.
 
 ## Technologies Used
-
 - **YOLO (Drowsiness Detection)**: For detecting drowsiness based on eye closure.
 - **LightGBM**: Used for physical stress detection from physiological attributes.
 - **Custom CNN**: For emotion recognition based on facial expression analysis.
@@ -39,26 +33,22 @@ This end-to-end solution is designed for **long drives and high-stress driving s
 - **Streamlit**: Web interface for real-time interaction with the system.
 
 ## Dataset
-
 - **WESAD**: A publicly available dataset for stress detection, utilized to train the LightGBM model on physiological attributes.
 - **Custom Emotion Data**: Trained a CNN model on facial expressions for emotion recognition.
 
 ## Installation and Setup
 
 ### 1. Prerequisites
-
 Ensure you have the following installed:
-
 - Python 3.7+
 - Pip
 - [Git](https://git-scm.com/)
 
 ### 2. Clone the Repository
-
 ```bash
 git clone https://github.com/VKunjir/AI_Driven-Drowsiness-and-Stress-Detection-with-Auto-Music-Recommendation.git
 cd AI_Driven-Drowsiness-and-Stress-Detection-with-Auto-Music-Recommendation
-```
+
 ````
 
 ### 3. Install Dependencies
