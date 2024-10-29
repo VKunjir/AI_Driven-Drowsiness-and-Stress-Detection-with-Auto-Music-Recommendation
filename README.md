@@ -64,13 +64,13 @@ pip install -r requirements.txt
    ```bash
    touch .env
    ```
-2. Add your keys in the `.env` file:
+2. Add your keys in the `.config` file:
    ```plaintext
    SPOTIFY_CLIENT_ID="your_spotify_client_id"
    SPOTIFY_CLIENT_SECRET="your_spotify_client_secret"
    YOUTUBE_API_KEY="your_youtube_api_key"
    ```
-3. **Optional**: Ensure the `.env` file is in your `.gitignore` to prevent accidental uploads.
+3. **Optional**: Ensure the `.config` file is in your `.gitignore` to prevent accidental uploads.
 
 ### 5. Set up Models
 
