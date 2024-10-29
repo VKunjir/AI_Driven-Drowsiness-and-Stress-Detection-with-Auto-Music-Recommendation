@@ -1,5 +1,6 @@
 # AI-Driven Drowsiness and Stress Detection with Auto Music Recommendation
 
+![output_Stressed](https://github.com/user-attachments/assets/1a5798c1-1b0b-424a-9995-312b119f0b54)
 This project is an **AI-powered drowsiness and stress detection system** designed to enhance driver safety. Using machine learning algorithms, the system analyzes physical and emotional indicators of stress and drowsiness, then automatically recommends and plays soothing music to help the driver relax.
 
 ## Table of Contents
